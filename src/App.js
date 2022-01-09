@@ -1,20 +1,29 @@
-import React, {useEffect} from "react";
+import React, {useEffect, useState}from "react";
 import tmdb from "./config/tmdb";
 
 export default ()=> {
+
   //When a reload the screen this fuction is gona run
+  const  [movieList, setMovieList] = useState([]);
   useEffect(()=>{
+    //Use state to save the fetch list into a page
     const loadAll = async () => {
       //Taking all list
       let list = await tmdb.getHomeList();
-      console.log(list)
+      setMovieList(list)
     }
     loadAll();
   }, []);
   
   return(
-    <div>
-      Ola mundo!
+    <div className="page">
+      <section className="lists">
+        {movieList.map((item, key)=>(
+          <div>
+            {item.title}
+          </div>
+        ))}
+      </section>
     </div>
   )
 }
