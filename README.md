@@ -1,6 +1,6 @@
-# Getting Started with Create React App
+# Getting Started with Create React App# Netflix-Clone-ReactJs
+This is my first project using totally React Js. Creating a Home Screen of the most popular streaming.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
 
