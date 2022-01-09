@@ -3,7 +3,7 @@ import tmdb from "./config/tmdb";
 import './App.css'
 //-------------- Screen's 
 import MovieRow from "./components/movieRow/MovieRow";
-import FeatureMovie from "./components/featureMovie/FeatureMovie";
+import FeatureMovie from "./components/featureMovie/FeaturedMovie";
 
 export default ()=> {
 
@@ -21,8 +21,10 @@ export default ()=> {
       let originals = list.filter(i=>i.slug === 'originals');
       let ramdomChosen = Math.floor(Math.random() * (originals[0].items.results.length -1 )) 
       let chosen = originals[0].items.results[ramdomChosen]
-
-      console.log(chosen)
+      let chosenInfo = await tmdb.getMovieInfo(chosen.id, 'tv')
+      //Set him
+      setFeatureData(chosenInfo);
+      
     }
     loadAll();
   }, []);
