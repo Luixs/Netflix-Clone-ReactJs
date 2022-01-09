@@ -1,0 +1,37 @@
+.movieRow {
+    margin-bottom: 30px;
+}
+
+.movieRow h2 {
+    margin: 0px 0px 0px 30px;
+}
+
+.movieRow--listArea {
+    /*If the componet over the X direction, he gonna be cut(hidden by the language JS)*/
+    overflow-x: hidden;
+
+    padding-left: 30px;
+}
+
+.movieRow--list {
+    /*Set a infinity width size for the list, making her don't drop of the row and continue for this efecty*/
+    width: 9999999px;
+}
+
+.movieRow--item {
+    /*Using this property, we can put every item side by side himself*/
+    display: inline-block;
+    width: 150px;
+    cursor: pointer;
+}
+
+.movieRow--item img {
+    width: 100%;
+    /*We gonna use 90% for the full area making this, the distance between movies is look like a natural efecty */
+    transform: scale(0.9);
+    transition: all ease 0.2s;
+}
+
+.movieRow--item img:hover {
+    transform: scale(1);
+}
