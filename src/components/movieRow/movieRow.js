@@ -6,7 +6,7 @@ import NavigateNextIcon from '@material-ui/icons/NavigateNext';
 
 export default ({title, items}) => {
 
-    const [scroolX, setScroolX] = useState(-400);
+    const [scroolX, setScroolX] = useState(0);
 
     const handleLeftArrow = () => {
         let x = scroolX + Math.round(window.innerWidth / 2);
