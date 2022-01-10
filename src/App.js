@@ -68,6 +68,11 @@ export default ()=> {
           <MovieRow key={key} title={item.title} items={item.items}/>
         ))}
       </section>
+
+      <footer>
+        Study Copy Developer by ©Luis Starlino <br/>
+        All image rights reserved by ©Netflix | Database by ©themoviedb.org
+      </footer>
     </div>
   )
 }
