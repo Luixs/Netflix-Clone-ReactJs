@@ -69,10 +69,10 @@ export default {
         
         if(movieId){
             switch(type){
-                case 'movie':
+                case 'movie': //MOVIE
                     info = await basicFech(`/movie/${movieId}?language=pt-BR&api_key=${API_KEY}`)
                 break;
-                case 'tv':
+                case 'tv': //TV SERIE
                     info = await basicFech(`/tv/${movieId}?language=pt-BR&api_key=${API_KEY}`)
                 break;
                 default:
