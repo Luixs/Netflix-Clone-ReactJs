@@ -1,6 +1,22 @@
-# Netflix Clone using a ReactJs
-This is my first project using totally React Js. Creating a Home Screen of the most popular streaming.
 
+
+<!-- MAIN PAGE -->
+<br />
+<div align="center" id="top">
+  <h1 align="center">Netflix Clone - ReactJs</h1>
+  This is my first project using totally React Js. Creating a Home Screen of the most popular streaming.
+  <p align="center">
+    <br />
+    <a href=""><strong>See the Project files »</strong></a>
+    <br />
+    <br />
+    <a href="">View Demo</a>
+    ·
+    <a href="https://www.linkedin.com/in/luis-tarlino/">Suggestions to the project</a>
+    ·
+    <a href="https://www.linkedin.com/in/luis-tarlino/">Talk with me</a>
+  </p>
+</div>
 
 ## Available Scripts
 
