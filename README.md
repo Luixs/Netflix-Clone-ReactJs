@@ -64,7 +64,7 @@ Follow all the steps and you will get the expected result of execution
    ```
 4. Run the Project!
    ```sh
-   npm install react-router-dom@5.2.0 @material-ui/core @material-ui/icons --save react-select
+   npm start
    ```  
 
 <p align="right">(<a href="#top">back to top</a>)</p>
