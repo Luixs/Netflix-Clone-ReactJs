@@ -10,7 +10,7 @@
     <a href=""><strong>See the Project files »</strong></a>
     <br />
     <br />
-    <a href="">View Demo</a>
+    <a href="https://github.com/Luixs/Netflix-Clone-ReactJs/tree/main/src/website-demo">View Demo</a>
     ·
     <a href="https://www.linkedin.com/in/luis-tarlino/">Suggestions to the project</a>
     ·
@@ -29,5 +29,47 @@
   <p align="right">(<a href="#top">Back to Top!</a>)</p>
 </div
 
+ 
+<div id="Built-With">
+  <h2>Built With</h2>
+
+  This section lists all frameworks/libraries used in this project. In the links below are the documentation and usage guide for each
+
+  * [React.js](https://reactjs.org/)
+  * [The Movie DataBase](https://www.themoviedb.org)
+  * [Google Fonts](https://fonts.google.com)
+  * [Material UI](https://v4.mui.com/components/material-icons/)
+
+  <p align="right">(<a href="#top">back to top</a>)</p>
+<div/>
+  
+ 
+ 
+<div id= "Started"><h2>Get started</h2>
+
+Below is an example of how you can run this project, installing and configuring your environment.
+Follow all the steps and you will get the expected result of execution
+
+1. Clone the repo
+   ```sh
+   git clone https://github.com/Luixs/Netflix-Clone-ReactJs
+   ```
+2. Install first NPM packages
+   ```sh
+   npm install  
+   ```
+3. Install the components, libs and framework using the NPM
+   ```sh
+   npm install react-router-dom@5.2.0 @material-ui/core @material-ui/icons --save react-select
+   ```
+4. Run the Project!
+   ```sh
+   npm install react-router-dom@5.2.0 @material-ui/core @material-ui/icons --save react-select
+   ```  
+
+<p align="right">(<a href="#top">back to top</a>)</p>
+  
+<div/>
+  
   <!-- MARKDOWN LINKS & IMAGES -->
   [product-screenshot]: src/website-demo/Desktop-Screen1.jpg
